@@ -1,3 +1,23 @@
+
+/* 
+    Partage: 
+
+    git add .
+    git commit -m "Petit description des changes que t'a fait"
+    git push -u origin master
+
+
+    Obtenir:
+
+    git fetch
+    git merge origin/master
+
+    Aprés dans la terminale metre :qa! pour sortir de la terminal de git (vim)
+*/
+
+
+
+
 *{
     margin: 0;
     padding: 0;
@@ -9,9 +29,13 @@
 HELLO TEST HOMES
 
 
+<<<<<<< HEAD
 BONJOUR BONJOUR 
 
 TEST
+=======
+
+>>>>>>> origin/master
 /* Section 1 -------------------------------------------------------- */
 
 12121211TEST}}}
