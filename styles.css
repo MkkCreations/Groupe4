@@ -20,10 +20,17 @@ Code couleur :
 background : #6A67CE
 h1 h2 : #A68067 */
 
+:root{
+    --fond: #6A67CE;
+    --titre: #A68067;
+}
 
+<<<<<<< HEAD
 /* holaaaaa */ 
 /* TESTTESTEST */
 /* BBLBLBL */
+=======
+>>>>>>> ecd4bf1 (variable css)
 
 /* Home -------------------------------------------------------- */
 
