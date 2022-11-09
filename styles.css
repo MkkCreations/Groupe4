@@ -30,6 +30,8 @@ cercle blur2: #2A63A6 */
 }
 */
 
+/* GENERAL */
+
 *{
     margin: 0;
     padding: 0;
@@ -53,6 +55,22 @@ h2 {
     font-size: 40px;
 }
 
+section{
+    height: 100vh;
+    width: 100vw;
+    background-color: hsla(242, 51%, 61%, 0.4);
+    z-index: 1;
+}
+section>article{
+    z-index: 2;
+    display: block;
+    margin: auto;
+    color: white;
+    width: 70%;
+    height: 80%;
+    text-align: justify;
+
+}
 
 /* Menu -------------------------------------------------------- */
 #menu {
@@ -181,22 +199,6 @@ h2 {
 
 /* Section -------------------------------------------------------- */
 
-section{
-    height: 100vh;
-    width: 100vw;
-    background-color: hsla(242, 51%, 61%, 0.4);
-    z-index: 1;
-}
-section>article{
-    z-index: 2;
-    display: block;
-    margin: auto;
-    color: white;
-    width: 70%;
-    height: 80%;
-    text-align: justify;
-
-}
 
 /* Section 1 -------------------------------------------------------- */
 
