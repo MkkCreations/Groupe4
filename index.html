@@ -60,32 +60,117 @@
                 
             </article>
         </section>
+        <section id="sec2">
+            <article>
+                <h1>La création du protocole HTTP/HTTPS</h1>
+
+<h2>Que signifie HTTP/HTTPS?</h2>
+
+<p>HTTP "Hypertext Transfert Protocol" est un protocole de communication client-serveur développé pour le World Wide Web (WWW). </p>
+
+
+<p>HTTPS "HyperText Transfert Protocol Secure" est la combinaison du HTTP avec une couche de chiffrement comme SSL ou TLS. Il permet au visiteur de vérifier l'identité du site web auquel il accède, grace à une certification  d'authentification émis par une autorité tierce.</p>
+
+
+<p>De facons plus simple, le HTTP à des données non chiffrées, alors que le HTTPS à quand à lui une sécurité chiffrée </p>
+
+
+
+<h2>HTTP</h2>
+<p>Toutes les URL qui commencent par HTTP utilisent un protocole simple de transfert hypertexte. Créé au début des années 1990 par Tim Berners-Lee, lorsqu’Internet en était encore à ses prémices, c’est grâce à ce protocole de réseaux standard que les navigateurs et les serveurs peuvent communiquer en échangeant des données.
+
+    HTTP est un système sans état, ce qui signifie qu’il permet de créer des connexions à la demande. Lorsque vous cliquez sur un lien, une connexion est sollicitée et votre navigateur web envoie la demande au serveur qui répond en ouvrant la page. Plus la connexion est rapide plus les données s’affichent rapidement.
+    
+    En tant que protocole de couche d’application, l’unique objectif de HTTP est d’afficher les informations demandées sans se soucier de la façon dont ces informations se déplacent d’un endroit à un autre. Malheureusement, cela signifie que HTTP peut être intercepté et éventuellement détourné, ce qui rend les informations et leurs destinataires (c’est-à-dire vous) vulnérables.
+</p>
+
+
+<h2>HTTPS</h2>
+
+<p>HTTPS n’est pas l’opposé de HTTP mais plutôt son petit cousin. Tous deux sont des protocoles de transfert hypertexte qui permettent à des données web d’être affichées sur votre écran lorsque vous envoyez une requête. Cependant, HTTPS est légèrement différent, plus avancé et bien plus sécurisé.
+
+    En gros, le protocole HTTPS est une extension de HTTP. Le « S » à la fin est l’initiale du mot « Secure » (sécurisé) et il fonctionne grâce au protocole TLS (Transport Layer Security), le successeur du protocole SSL (Secure Sockets Layer), la technologie de sécurité standard pour établir une connexion chiffrée entre un serveur web et un navigateur.
+    
+    Sans la présence de HTTPS, toutes les données que vous entrez sur un site (ex : nom d’utilisateur, mot de passe, carte bancaire, RIB ou tout autre information requise dans un formulaire) seront envoyées en format de texte brute et seront, par conséquent, vulnérables aux interceptions et à l’espionnage. C’est pour cette raison que vous devriez toujours vérifier qu’un site utilise bien HTTPS avant d’y entrer quelques données que ce soit.
+    
+    En plus de chiffrer les données transmises entre un serveur et votre navigateur, le protocole TLS authentifie également le serveur auquel vous vous connectez et protège les données transmises de toute altération.
+    
+    Pour vous aider à comprendre la différence, imaginez que HTTP dans HTTPS est l’équivalent d’une destination, tandis que SSL est l’équivalent d’un voyage. Le premier est chargé d’acheminer les données vers votre écran, le dernier gère la façon dont ces données sont déplacées. En joignant force, ils permettent aux flux de données d’être sécurisés.
+</p>
+
+<h2>Les avantages et inconvénients du HTTPS</h2>
+
+<p>Comme nous l’avons vu, HTTPS est garant de la cybersécurité. Il constitue, sans aucun doute, une solution de protocole de réseau bien supérieur à son grand cousin HTTP.
+
+    Cependant, HTTPS ne présente-t-il que des avantages ? Ou existe-t-il des inconvénients inévitables ? Voyons ça ensemble.
+</p>
+
+<h2>Les avantages du HTTPS</h2>
+
+<p>Les avantages en termes de sécurité mentionnés plus haut, soit l’authentification du serveur, le chiffrement des échanges de données et leur protection contre les altérations, sont les avantages évidents et principaux du protocole HTTPS. Les administrateurs de sites web souhaitent et doivent protéger les données de leurs visiteurs (HTTPS est même obligatoire pour les sites qui demandent des informations de paiement selon la norme PCI Data Security) tandis que les visiteurs souhaitent savoir que leurs données sont transmises de façon sécurisée.
+
+    Un autre avantage du HTTPS repose sur la demande croissante du public pour la confidentialité et la sécurité de leurs données. En effet, selon We Make Websites, 13 % des paniers sont abandonnés en raison d’une inquiétude quant à la sécurité du paiement. Les visiteurs d’un site veulent savoir qu’ils peuvent lui faire confiance, notamment lorsqu’ils entrent des coordonnées bancaires. Utiliser HTTPS permet de renforcer cette confiance (en prouvant à vos visiteurs que les informations qu’ils entreront seront chiffrées).
+    
+    HTTPS vous aide également pour votre stratégie SEO. En 2014, Google a annoncé que HTTPS serait désormais considéré comme un facteur de référencement naturel. Depuis, plusieurs études et expériences non confirmées menées par des entreprises qui ont implémenté HTTPS semblent indiquer une corrélation avec une amélioration du référencement et de la visibilité de leur site.
+    
+    Les navigateurs se joignent également à l’effort pour renforcer l’utilisation de HTTPS en modifiant leur interface de façon à ce que les sites non sécurisés avec HTTPS soient pénalisés. Google a, par exemple, annoncé, en début d’année, qu’à partir du mois de juillet, Chrome afficherait tous les sites HTTP comme étant non-sécurisés.
+</p>
+
+<p>Firefox a également annoncé mettre en place un système d’alerte similaire pour les sites HTTP. Imaginez l’impact d’un tel système sur votre marque, votre performance marketing, votre stratégie d’acquisition de prospects et vos ventes ! L’unique façon de faire face à ces changements est d’adopter HTTPS sur votre site. 
+</p>
+
+
+
+<h2>L’avenir</h2>
+
+<p>A l’heure actuelle, Internet compte plus de quatre milliards d’utilisateurs, consommateurs de contenu, clients et autres. La demande des utilisateurs (les visiteurs de site web sont plus conscients que jamais de l’importance de la sécurité de leurs données), les régulations (ex : PCI DSS) et la pression des navigateurs (ex : indiquer que les sites http ne sont pas sécurisés) mis ensemble sont des faits qui prouvent bien qu’une transition de HTTP à HTTPS semble de plus en plus nécessaire.
+</p>
+            </article>
+        </section>
         <section id="sec3">
-            
+            <article>
+                
+            </article>
         </section>
         <section id="sec4">
-            
+            <article>
+                
+            </article>
         </section>
         <section id="sec5">
-            
+            <article>
+                
+            </article>
         </section>
         <section id="sec6">
-            
+            <article>
+                
+            </article>
         </section>
         <section id="sec7">
-            
+            <article>
+                
+            </article>
         </section>
         <section id="sec8">
-            
+            <article>
+                
+            </article>
         </section>
         <section id="sec9">
-            
+            <article>
+                
+            </article>
         </section>
         <section id="sec10">
-            
+            <article>
+                
+            </article>
         </section>
         <section id="sec11">
-           
+           <article>
+            
+           </article>
         </section>
         
     </body>
