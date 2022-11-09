@@ -36,11 +36,14 @@ cercle blur2: #2A63A6 */
     padding: 0;
 }
 html{
+
     background-color: black;
 }
 body {
     height: 100vh;
-    background-color: hsla(242, 51%, 61%, 0.4) ;
+    background-color: hsla(242, 51%, 61%, 0.4);
+    background-attachment: scroll;
+    overflow: auto;
 }
 
 
@@ -87,7 +90,7 @@ body {
 }
 
 
-/* Background circles */
+
 
 /* Background circles ------------------------------------------*/
 
@@ -151,8 +154,28 @@ body {
 
 
 
-/* Section 2 -------------------------------------------------------- */
+/* Section 1 -------------------------------------------------------- */
 
+#sec1 {
+    display: flex;
+    border: 1px solid white;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+
+    margin: auto;
+}
+
+#sec1 > article {
+    color: white;
+    width: 50vw;
+    text-align: justify;
+}
+
+#sec1 > img {
+    border: 1px solid white;
+    width: 50vw;
+}
 
 
 
