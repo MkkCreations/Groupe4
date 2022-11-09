@@ -48,7 +48,7 @@ body {
 
 p {
     color: #F8FFCF;
-    font-size: 25px;
+    font-size: 1.3em;
 }
 
 h2 {
@@ -224,8 +224,6 @@ section>article{
 
     background-color: hsla(242, 51%, 61%, 0.4);
 
-    border: 1px solid white;
-
 }
 
 #sec1 > article > div{
@@ -237,14 +235,13 @@ section>article{
 
 #sec1 > article > div > img {
     border: 1px solid white;
-    width: 40%;
-
-
+    width: 45%;
+    max-width: 300px;
     margin-left: 40px;
 }
 
 #sec1 > article > div > p {
-    width: 50%;
+   
 
 }
 /* Section 2 --------------------------------------------------------*/
