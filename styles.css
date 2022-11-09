@@ -184,6 +184,12 @@ section{
 }
 section>article{
     z-index: 2;
+    display: block;
+    margin: auto;
+    color: white;
+    width: 70%;
+    height: 80%;
+    text-align: justify;
 
 }
 
@@ -192,10 +198,6 @@ section>article{
 #sec1 {
 
     background-color: hsla(242, 51%, 61%, 0.4);
-
-    
-
-
     display: flex;
 
     border: 1px solid white;
@@ -210,15 +212,6 @@ section>article{
   
 }
 
-#sec1 > article {
-    display: block;
-    margin: auto;
-
-    color: white;
-    width: 70%;
-    height: 80%;
-    text-align: justify;
-}
 #sec1 > article > div{
     display: flex;
     flex-direction: row;
