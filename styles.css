@@ -63,7 +63,13 @@ body {
     border-radius: 4px;
 }
 
-
+#menuContent{
+    position: absolute;
+    width: 30%;
+    height: 100%;
+    background-color: aliceblue;
+    display: none;
+}
 /* Barre -------------------------------------------------------*/
 
 #barre {
@@ -172,13 +178,12 @@ section{
 }
 section>article{
     z-index: 2;
+
 }
 
 /* Section 1 -------------------------------------------------------- */
 
 #sec1 {
-    
-
     display: flex;
     border: 1px solid white;
     width: 100vw;
@@ -190,7 +195,6 @@ section>article{
 }
 
 #sec1 > article {
-   
     color: white;
     width: 30%;
     height: 300px;
