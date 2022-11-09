@@ -63,12 +63,11 @@ body {
     border-radius: 4px;
 }
 
-<<<<<<< HEAD
+
 /* Barre */
 
-=======
 /* Barre -------------------------------------------------------*/
->>>>>>> b13e35cb9523fa0da4dce9b5e43571afbf0f6d9f
+
 #barre {
     display: flex;
     flex-direction: column;
@@ -85,12 +84,12 @@ body {
     background-color: #81a5d9;
     border-radius: 50%;
 }
-<<<<<<< HEAD
+
 
 /* Background circles */
-=======
+
 /* Background circles ------------------------------------------*/
->>>>>>> b13e35cb9523fa0da4dce9b5e43571afbf0f6d9f
+
 .circle {
     background-color: white;
     width: 100px;
