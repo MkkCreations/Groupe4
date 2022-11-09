@@ -63,6 +63,23 @@ body {
     border-radius: 4px;
 }
 
+/* Barre */
+#barre {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50px;
+    height: 100%;
+    position: fixed;
+    right: 2%;
+}
+#barre > div {
+    width: 25px;
+    height: 25px;
+    background-color: #81a5d9;
+    border-radius: 50%;
+}
 /* Background circles */
 .circle {
     background-color: white;
