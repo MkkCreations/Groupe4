@@ -69,7 +69,13 @@ p {
     border-radius: 4px;
 }
 
-
+#menuContent{
+    position: absolute;
+    width: 30%;
+    height: 100%;
+    background-color: aliceblue;
+    display: none;
+}
 /* Barre -------------------------------------------------------*/
 
 #barre {
@@ -178,16 +184,20 @@ section{
 }
 section>article{
     z-index: 2;
+
 }
 
 /* Section 1 -------------------------------------------------------- */
 
 #sec1 {
 <<<<<<< HEAD
+<<<<<<< HEAD
     background-color: hsla(242, 51%, 61%, 0.4);
 =======
     
 
+=======
+>>>>>>> b0e0b3c87b3769e52004a64547a4457e4f9f24b1
     display: flex;
 >>>>>>> 881ab0cd01201643cb89f979a10c26e9d35f69ad
     border: 1px solid white;
@@ -203,8 +213,11 @@ section>article{
 }
 
 #sec1 > article {
+<<<<<<< HEAD
     display: block;
     margin: auto;
+=======
+>>>>>>> b0e0b3c87b3769e52004a64547a4457e4f9f24b1
     color: white;
     width: 70%;
     height: 80%;
