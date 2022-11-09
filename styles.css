@@ -49,6 +49,11 @@ p {
     font-size: larger;
 }
 
+h2 {
+    font-size: 40px;
+}
+
+
 /* Menu -------------------------------------------------------- */
 #menu {
     display: flex;
@@ -192,23 +197,15 @@ section>article{
 #sec1 {
 
     background-color: hsla(242, 51%, 61%, 0.4);
-
-    
-
-
     display: flex;
 
     border: 1px solid white;
-    
     width: 100vw;
     height: 100vh;
 
 }
 
 
-#sec1 > h1 {
-  
-}
 
 #sec1 > article {
     display: block;
@@ -218,6 +215,7 @@ section>article{
     width: 70%;
     height: 80%;
     text-align: justify;
+
 }
 #sec1 > article > div{
     display: flex;
@@ -230,10 +228,12 @@ section>article{
     border: 1px solid white;
     width: 40%;
     height: 300px;
+
+    margin-left: 40px;
 }
 
 #sec1 > article > div > {
-    width: 40%;
+    width: 30%;
     height: 300px;
 }
 /* Section 2 --------------------------------------------------------*/
