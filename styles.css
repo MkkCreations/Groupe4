@@ -24,10 +24,11 @@ police, navbar : F8FFCF
 cercle blur1 : #7D6E83
 cercle blur2: #2A63A6 */
 
+:root{
+    --fond: #6A67CE;
+    --titre: #A68067;
+}
 
-/* holaaaaa */ 
-/* TESTTESTEST */
-/* BBLBLBL */
 
 *{
     margin: 0;
