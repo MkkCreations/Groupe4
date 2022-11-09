@@ -189,6 +189,12 @@ section{
 }
 section>article{
     z-index: 2;
+    display: block;
+    margin: auto;
+    color: white;
+    width: 70%;
+    height: 80%;
+    text-align: justify;
 
 }
 
