@@ -18,17 +18,108 @@
 Code couleur :
 
 background : #6A67CE
-h1 h2 : #A68067 */
+menu : #947EC3
+h1 h2 : #A68067 
+police, navbar : F8FFCF 
+cercle blur1 : #7D6E83
+cercle blur2: #2A63A6 */
 
 
 /* holaaaaa */ 
 /* TESTTESTEST */
 /* BBLBLBL */
 
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    background-color: black;
+}
+body {
+    height: 100vh;
+    background-color: hsla(242, 51%, 61%, 0.4) ;
+}
+
+
+/* Menu -------------------------------------------------------- */
+#menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40px;
+    height: 25px;
+    cursor: pointer;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+#menu > div {
+    height: 4px;
+    width: 100%;
+    background-color:  white;
+    border-radius: 4px;
+}
+
+/* Background circles */
+.circle {
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+    position: fixed;
+    z-index: -1;
+}
+
+.circle1 {
+    background-color: #7D6E83;
+    width: 400px;
+    height: 400px;
+    top: 70%;
+    left: 60%;
+    filter: blur(40px) opacity(0.4);
+}
+
+.circle2 {
+    background-color: #2A63A6;
+    width: 450px;
+    height: 450px;
+    top: 4%;
+    left: 5%;
+    filter: blur(80px) opacity(0.4);
+    
+}
+
+.circle3 {
+    background-color: #e7e7e7;
+    width: 300px;
+    height: 300px;
+    filter: blur(40px) opacity(0.4);
+
+    right: -130px;
+    top: -150px;
+}
+
+
 /* Home -------------------------------------------------------- */
 
 
 /* Section 1 -------------------------------------------------------- */
+#sec1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+#sec1 > h1 {
+    width: 60%;
+    font-size: 8em;
+    color: #A68067;
+    font-weight: lighter;
+}
 
 
 
