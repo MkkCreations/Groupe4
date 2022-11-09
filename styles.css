@@ -35,8 +35,8 @@ cercle blur2: #2A63A6 */
     padding: 0;
 }
 html{
-
     background-color: black;
+    overflow-x: hidden;
 }
 body {
     height: 100vh;
@@ -75,10 +75,10 @@ body {
     justify-content: space-between;
     align-items: center;
     width: 50px;
-    height: 80%;
+    height: 90%;
     position: fixed;
     right: 2%;
-    top: 10%;
+    top: 5%;
 }
 #barre > hr {
     height: 98%;
