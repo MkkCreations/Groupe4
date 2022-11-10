@@ -38,6 +38,7 @@ cercle blur2: #2A63A6 */
 }
 
 html{
+    font-family: 'Prata', serif;
     background-color: black;
     overflow-x: hidden;
 }
@@ -52,6 +53,7 @@ p {
 }
 
 h2 {
+    color: #A68067; 
     font-size: 60px;
     margin-bottom: 40px;
 }
@@ -222,7 +224,6 @@ section>article{
 
 #sec1 {
 
-    background-color: hsla(242, 51%, 61%, 0.4);
 
 }
 
@@ -230,7 +231,7 @@ section>article{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: flex-start;
 }
 
 #sec1 > article > div > img {
