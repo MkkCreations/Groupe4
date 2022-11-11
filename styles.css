@@ -255,6 +255,12 @@ input {
     transform: scale(1.3);
 }
 
+#barre > a > div:hover::before{
+    content: "Home";
+    position: relative;
+    color: #e7e7e7;
+}
+
 
 
 /* Background circles ------------------------------------------*/
