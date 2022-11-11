@@ -42,15 +42,13 @@ html{
     font-family: 'Prata', serif;
     background-color: black;
     overflow-x: hidden;
+    overflow: hidden;
     scroll-behavior: smooth;
 }
 
 body {
     height: 100vh;
-    overflow: hidden;
-    scroll-behavior: smooth;
 }
-
 p {
     color: #F8FFCF;
     font-size: 1.2em;
@@ -74,7 +72,6 @@ section{
     width: 100vw;
     background-color: hsla(242, 51%, 61%, 0.4);
     z-index: 1;
-    overflow: hidden;
 }
 section>article{
     z-index: 2;
