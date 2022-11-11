@@ -47,16 +47,17 @@ html{
 
 body {
     height: 100vh;
+    overflow: hidden;
 }
 
 p {
     color: #F8FFCF;
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
 
 h2 {
     color: #A68067; 
-    font-size: 60px;
+    font-size: 50px;
     margin-bottom: 40px;
 }
 
@@ -72,6 +73,7 @@ section{
     width: 100vw;
     background-color: hsla(242, 51%, 61%, 0.4);
     z-index: 1;
+    overflow: hidden;
 }
 section>article{
     z-index: 2;
