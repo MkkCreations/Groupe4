@@ -48,6 +48,7 @@ html{
 body {
     height: 100vh;
     overflow: hidden;
+    scroll-behavior: smooth;
 }
 
 p {
@@ -85,10 +86,6 @@ section>article{
     width: 75%;
     height: 80%;
     text-align: justify;
-<<<<<<< HEAD
-    overflow-y:;
-=======
->>>>>>> 7d42dcd73079cd3210823bd8f26f3ea034b96320
 
 }
 
