@@ -74,6 +74,23 @@
 
 @media screen and (max-width: 510px){
     #home > h1{
-        font-size: 3.5em;
+        width: 90%;
+        font-size: 3.4em;
+    }
+    #menuContent {
+        width: 50%;
+        max-width: none;
+    }
+    #contact, #source {
+        width: 80%;
+        left: 10%;
+    }
+    @keyframes menu {
+        0%{
+            width: 0;
+        }
+        100%{
+            width: 50%;
+        }
     }
 }
