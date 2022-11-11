@@ -34,10 +34,6 @@
     #home>h1{
         font-size: 4.5em;
     }
-<<<<<<< HEAD
-    section > article {
-        margin: 40px 100px;
-=======
 }
 
 @media screen and (max-width: 550px){
@@ -49,6 +45,5 @@
     }
     #btn{
         display: block;
->>>>>>> 12a77c49ee8cb534780da76ee2adef21337983ec
     }
 }
