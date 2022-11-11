@@ -1,6 +1,36 @@
-@media screen and (max-width: 760px){
+@media screen and (max-width: 1150px){
+    #home> h1{
+        font-size: 6em;
+    }
     section>article{
         width: 85%;
         height: 92%;
+    }
+    h2{
+        font-size: 35px;
+    }
+    p{
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 850px){
+    section>article {
+        width: 80%;
+    }
+    h2{
+        font-size: 30px;
+    }
+    p{
+        font-size: 0.9em;
+    }
+    #sec1 > article > div > img{
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 720px){
+    #home>h1{
+        font-size: 4.5em;
     }
 }
