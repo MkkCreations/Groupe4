@@ -342,9 +342,13 @@ input {
 }
 #btn{
     display: none;
+    width: 70%;
+    text-align: right;
+}
+#btn > a {
     color: #A68067;
-    border: 2px solid #A68067;
-    background-color: #a680672a;
+    border: 1px solid #A68067;
+    background-color: #5c3b2c5d;
     border-radius: 6px;
     padding: 10px;
 }
