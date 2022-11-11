@@ -5,7 +5,6 @@
     section>article{
         width: 85%;
         height: 92%;
-        margin: 0px 100px;
     }
     h2{
         font-size: 35px;
@@ -36,7 +35,12 @@
     }
 }
 
-@media screen and (max-width: 550px){
+@media screen and (max-width: 650px){
+    section {
+        min-height: 100vh;
+        height: auto;
+        padding-bottom: 100px;
+    }
     #barre {
         display: none;
     }
@@ -45,5 +49,8 @@
     }
     #btn{
         display: block;
+    }
+    section>article{
+        width: 92%;
     }
 }
