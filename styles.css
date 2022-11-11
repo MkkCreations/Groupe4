@@ -235,7 +235,7 @@ input {
     top: 5%;
 }
 #barre > hr {
-    height: 98%;
+    height: 88%;
     border-color: #81a5d9;
     position: absolute;
     z-index: -1;
