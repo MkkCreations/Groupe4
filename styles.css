@@ -116,6 +116,7 @@ input {
     position: fixed;
     top: 15px;
     left: 15px;
+    z-index: 4;
 }
 
 #menu > div {
@@ -237,7 +238,7 @@ input {
     height: 80%;
     position: fixed;
     right: 2%;
-    top: 10%;
+    top: 5%;
 }
 #barre > hr {
     height: 98%;
@@ -342,11 +343,15 @@ input {
 }
 #btn{
     display: none;
+    width: 70%;
+    text-align: right;
+}
+#btn > a {
     color: #A68067;
-    border: 2px solid #A68067;
-    background-color: #a680672a;
+    border: 1px solid #A68067;
+    background-color: #5c3b2c5d;
     border-radius: 6px;
-    padding: 10px;
+    padding: 10px 20px;
 }
 
 
@@ -356,10 +361,12 @@ input {
 #sec1 > article > div{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
 }
-
+#sec1 > article > div > p{
+    width: 55%;
+}
 #sec1 > article > div > img {
     border: 1px solid white;
     width: 45%;
@@ -367,10 +374,6 @@ input {
     margin-left: 40px;
 }
 
-#sec1 > article > div > p {
-   
-
-}
 /* Section 2 --------------------------------------------------------*/
 
 
@@ -427,3 +430,18 @@ input {
 
 /* Footer */
 
+#footer {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 100px;
+    color: #F8FFCF;
+    background-color: #7d6e83a2;
+}
