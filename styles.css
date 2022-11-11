@@ -83,7 +83,10 @@ section>article{
     width: 75%;
     height: 80%;
     text-align: justify;
+<<<<<<< HEAD
     overflow-y:;
+=======
+>>>>>>> 7d42dcd73079cd3210823bd8f26f3ea034b96320
 
 }
 
@@ -311,7 +314,7 @@ input {
     height: 100%;
 }
 #home > h1 {
-    width: 60%;
+    width: 80%;
     font-size: 8em;
     color: #A68067;
     font-weight: lighter;
