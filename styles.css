@@ -394,3 +394,15 @@ input {
 
 
 /* Section 11 -------------------------------------------------------- */
+
+/* Footer */
+
+footer {
+    color: #F8FFCF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #947ec369
+
+}
