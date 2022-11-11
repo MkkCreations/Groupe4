@@ -83,7 +83,7 @@ section>article{
     width: 75%;
     height: 80%;
     text-align: justify;
-    overflow-y: scroll;
+    overflow-y:;
 
 }
 
@@ -229,13 +229,13 @@ input {
     justify-content: space-between;
     align-items: center;
     width: 50px;
-    height: 90%;
+    height: 80%;
     position: fixed;
     right: 2%;
     top: 5%;
 }
 #barre > hr {
-    height: 88%;
+    height: 98%;
     border-color: #81a5d9;
     position: absolute;
     z-index: -1;
