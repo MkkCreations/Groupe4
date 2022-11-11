@@ -150,7 +150,7 @@ input {
 }
 #dismenu:checked ~ #menuContent {
     display: flex;
-    animation: 1s menu cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    animation: 3s menu cubic-bezier(0.175, 0.885, 0.3, 1.0);
 }
 #dismenu:checked ~ section{
     animation: 2s blurbody forwards;
@@ -169,7 +169,7 @@ input {
     background-color: #81a5d9;
     position: fixed;
     top: 25%;
-    left: 25%;
+    left: 30%;
     border-radius: 10px;
     box-shadow: 0 0 12px 3px rgb(115, 97, 154);
     z-index: 6;
