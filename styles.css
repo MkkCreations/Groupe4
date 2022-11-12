@@ -80,10 +80,10 @@ section>article{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: auto;
+    margin: 30px 150px;
     color: white;
-    width: 75%;
-    height: 80%;
+    width: 85%;
+    height: 90%;
     text-align: justify;
 
 }
@@ -365,7 +365,7 @@ input {
     align-items: center;
 }
 #sec1 > article > div > p{
-    width: 55%;
+    width: 70%;
 }
 #sec1 > article > div > img {
     border: 1px solid white;
