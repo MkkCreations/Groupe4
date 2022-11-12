@@ -275,8 +275,8 @@ input {
 }
 #barre > hr {
     height: 98%;
-    border-color: #4174bc;
-    border-width:  0 1px 0 0;
+    border-color: #4174bc62;
+    border-width:  0 3px 0 0;
     position: absolute;
     z-index: -1;
 }
