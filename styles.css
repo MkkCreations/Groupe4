@@ -302,6 +302,7 @@ input {
     top: 70%;
     left: 60%;
     filter: blur(40px) opacity(0.4);
+    animation: move1 4s infinite alternate-reverse;
 }
 
 .circle2 {
@@ -310,21 +311,46 @@ input {
     height: 450px;
     top: 4%;
     left: 5%;
-    filter: blur(80px) opacity(0.4);
+    filter: blur(60px) opacity(0.5);
+    animation: move2 5s infinite alternate-reverse;
     
 }
 
 .circle3 {
-    background-color: #e7e7e7;
+    background-color: #e7e7e7dc;
     width: 300px;
     height: 300px;
     filter: blur(40px) opacity(0.4);
 
     right: -130px;
     top: -150px;
+    animation: move3 3s infinite alternate-reverse;
 }
 
-
+@keyframes move1{
+    0%{
+        translate: 200px 300px;
+    }
+    100%{
+        translate: 0 0;
+    }
+}
+@keyframes move2{
+    0%{
+        translate: 100% 0;
+    }
+    100%{
+        translate: 0 0;
+    }
+}
+@keyframes move3{
+    0%{
+        translate: 0 20%;
+    }
+    100%{
+        translate: 0 0;
+    }
+}
 /* Home ------------------------------------------------------------- */
 
 #home{
@@ -381,9 +407,23 @@ input {
 /* Section 3 -------------------------------------------------------- */
 .section3 > .sect3-1 {
     display: flex;
+    flex-wrap: wrap;
 }
-
-
+.sect3-1 {
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.sect3-1 > p{
+    width: 100%;
+}
+.sect3-1 > figure{
+    width: 45%;
+    min-width: 250px;
+}
+.sect3-1 > figure > img {
+    width: 100%;
+}
 
 
 /* Section 4 -------------------------------------------------------- */
