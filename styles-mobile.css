@@ -1,4 +1,4 @@
-@media screen and (max-width: 1150px){
+@media screen and (max-width: 1170px){
     #home> h1{
         font-size: 6em;
     }
@@ -14,7 +14,7 @@
     }
 }
 
-@media screen and (max-width: 850px){
+@media screen and (max-width: 870px){
     section>article {
         width: 80%;
         margin: auto;
@@ -56,7 +56,10 @@
     }
     section>article{
         width: 92%;
-    
+        background-color: #7d6e8335;
+        padding: 20px;
+        border-radius: 8px;
+
     }
 }
 
@@ -75,13 +78,14 @@
 }
 
 @media screen and (max-width: 510px){
+    #menuContent{
+        max-width: none;
+        width: 100vw;
+        height: 40%;
+    }
     #home > h1{
         width: 90%;
         font-size: 3.4em;
-    }
-    #menuContent {
-        width: 50%;
-        max-width: none;
     }
     #contact, #source {
         width: 80%;
@@ -89,10 +93,10 @@
     }
     @keyframes menu {
         0%{
-            width: 0;
+            height: 0;
         }
         100%{
-            width: 50%;
+            height: 40%;
         }
     }
 }

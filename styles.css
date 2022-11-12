@@ -49,8 +49,10 @@ body {
     height: 100vh;
 }
 p {
-    color: #F8FFCF;
+    color: #bebebe;
     font-size: 1.2em;
+    line-height: 1.4em;
+    margin-bottom: 20px;
 }
 a{
     text-decoration: none;
@@ -85,7 +87,6 @@ section>article{
     width: 85%;
     height: 90%;
     text-align: justify;
-
 }
 
 .container {
@@ -174,7 +175,7 @@ input {
     min-width: 250px;
     height: 50%;
     min-height: 250px;
-    background-color: #81a5d9;
+    background-color: #7a9dd2;
     position: fixed;
     top: 25%;
     left: 30%;
@@ -185,7 +186,7 @@ input {
 #contact>h4, #source>h4 {
     text-align: center;
     font-size: 2em;
-    color: rgb(115, 97, 154);
+    color: #675888;
 }
 #discontact, #dissource {
     position: relative;
@@ -242,7 +243,8 @@ input {
 }
 #barre > hr {
     height: 98%;
-    border-color: #81a5d9;
+    border-color: #4174bc;
+    border-width:  0 1px 0 0;
     position: absolute;
     z-index: -1;
 }
