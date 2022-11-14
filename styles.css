@@ -520,7 +520,6 @@ input {
 
 #footer {
     display: flex;
-    flex-direction: column;
     padding: 0;
 }
 
@@ -531,5 +530,5 @@ input {
     
     height: 100px;
     color: #F8FFCF;
-    background-color: #7d6e83a2;
+    background-color: #7d6e83;
 }
