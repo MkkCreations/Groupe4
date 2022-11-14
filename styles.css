@@ -327,6 +327,12 @@ input {
     right: 120px;
     color: #e7e7e7;
 }
+#barre > a:nth-of-type(4) > div:hover::before{
+    content: "Serveur";
+    position: relative;
+    right: 80px;
+    color: #e7e7e7;
+}
 
 
 /* Background circles ------------------------------------------*/
@@ -473,7 +479,21 @@ input {
 
 
 /* Section 4 -------------------------------------------------------- */
-
+#sec4 > article > p {
+    text-align: justify;
+    word-spacing: 4px;
+}
+#sec4 >article > dl >dt{
+    color: #7975e8;
+    font-weight: bolder;
+    font-size: 1.2em;
+}
+#sec4 >article > dl > dd{
+    text-indent: 30px;
+}
+#sec4 > article > b {
+    color:#6a67ce9b;
+}
 
 
 
