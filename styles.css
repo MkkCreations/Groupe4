@@ -457,28 +457,87 @@ input {
 
 
 /* Section 3 -------------------------------------------------------- */
+
+
+/* Section 3-1 */
+
 .section3 > .sect3-1 {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
+    box-shadow:2px 1px 3px 3px #71cae6;
+    justify-content: space-around;
 }
-.sect3-1 {
-    justify-content: center;
+
+.section3 > h2 {
+    position: relative;
+    margin-top: 60px;
+    
+  
+}
+
+.sect3-1 >p {
+    bottom: 30px;
+    width: 50%;
+    margin: 9px 9px 9px 9px;
+  
+    
+}
+
+.section3 > .sect3-1 > img {
+    width: 50%;
+    cursor: pointer;
+    font: 1.5rem sans-serif;
+    cursor: pointer;
+     will-change: transform;
+}
+
+.sect3-1 >p{
+    --b: 0.1em;   /* Epaisseur trait*/
+    --c: #A68067; /* Couleur*/
+    
+    color: #0000;
+    padding-block: var(--b);
+    background: 
+      linear-gradient(var(--c) 50%,rgb(255, 255, 255) 0) 0% calc(100% - var(--_p,0%))/100% 200%,
+      linear-gradient(var(--c) 0 0) 0% var(--_p,0%)/var(--_p,0%) var(--b) no-repeat;
+    -webkit-background-clip: text,padding-box;
+            background-clip: text,padding-box;
+    transition: .5s var(--_s,0s) linear,background-size .3s calc(.3s - var(--_s,0s));
+  }
+
+  figure >img{
     align-items: center;
-    gap: 40px;
+    margin-top: 6%;
+   
 }
-.sect3-1 > p{
-    width: 100%;
+
+  /* Survol animation + durée */
+  .sect3-1 >p:hover {
+    --_p: 100%; 
+    --_s: .3s;
+  }
+
+
+
+/* Chronologie des fournisseurs accès Image */
+/* Section 3-2*/
+
+.sect3-2 img {
+    position: relative;
+    height: 200px;
+    width: 200px;
+
 }
-.sect3-1 > figure{
-    width: 45%;
-    min-width: 250px;
-}
-.sect3-1 > figure > img {
-    width: 100%;
-}
+
+
+
 
 
 /* Section 4 -------------------------------------------------------- */
+
+
+/* Introduction texte + Image */
+
 #sec4 > article > p {
     text-align: justify;
     word-spacing: 4px;
@@ -493,6 +552,21 @@ input {
 }
 #sec4 > article > b {
     color:#6a67ce9b;
+}
+
+
+
+/*
+
+.zoom img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.zoom :hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
 }
 
 
