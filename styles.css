@@ -49,7 +49,7 @@ body {
     height: 100vh;
 }
 p {
-    color: #d6c38e;
+    color: #d9ceae;
     font-size: 1.2em;
     line-height: 1.4em;
     margin-bottom: 20px;
@@ -117,7 +117,7 @@ input {
     height: 55px;
 
     border-radius: 0 0 10px 0;
-    background-color: rgb(115, 97, 154);
+    background-color: rgba(115, 97, 154, 0.679);
 }
 #menu {
     display: flex;
@@ -307,6 +307,7 @@ input {
     background-color:#A68067;
     transition: all ease-out 1.5s;
     transform: scale(1.3);
+    
 }
 
 #barre > a:first-of-type > div:hover::before{
@@ -614,14 +615,22 @@ input {
 
 #footer {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
     padding: 0;
+}
+#footer > article{
+    margin: 0;
 }
 
 .footer {
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    position: relative;
+    bottom: 0;
     height: 100px;
     color: #F8FFCF;
     background-color: #7d6e83;

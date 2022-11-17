@@ -37,6 +37,12 @@
 }
 
 @media screen and (max-width: 650px){
+    #menu > div{
+        background-color: #c2755d;
+    }
+    .background-menu {
+        display: block;
+    }
     section {
         min-height: 100vh;
         height: auto;
@@ -61,9 +67,10 @@
         border-radius: 8px;
 
     }
-    .background-menu {
-        display: block;
+    #footer{
+        justify-content: space-between;
     }
+    
 }
 
 @media screen and (max-width: 600px){
