@@ -537,8 +537,6 @@ input {
 /* Section 4 -------------------------------------------------------- */
 
 
-/* Introduction texte + Image */
-
 #sec4 > article > p {
     text-align: justify;
     word-spacing: 4px;
@@ -553,21 +551,6 @@ input {
 }
 #sec4 > article > b {
     color:#6a67ce9b;
-}
-
-
-
-/*
-
-.zoom img {
-	-webkit-transform: scale(1);
-	transform: scale(1);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
-}
-.zoom :hover img {
-	-webkit-transform: scale(1.3);
-	transform: scale(1.3);
 }
 
 
