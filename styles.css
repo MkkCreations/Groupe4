@@ -1,20 +1,5 @@
 
 /* 
-    Partage: 
-
-    git add .
-    git commit -m "Petit description des changes que t'a fait"
-    git push -u origin master
-
-
-    Obtenir:
-
-    git fetch
-    git merge origin/master
-
-    Aprés dans la terminale metre :qa! pour sortir de la terminal de git (vim)
-*/
-/* 
 Code couleur :
 
 background : #6A67CE
@@ -24,11 +9,7 @@ police, navbar : F8FFCF
 cercle blur1 : #7D6E83
 cercle blur2: #2A63A6 */
 
-/* :root{
-    --fond: #6A67CE;
-    --titre: #A68067;
-}
-*/
+
 
 /* GENERAL */
 
