@@ -3,8 +3,9 @@
         font-size: 6em;
     }
     section>article{
-        width: 85%;
+        width: 80%;
         height: 90%;
+        margin: auto;
     }
     h2{
         font-size: 35px;
