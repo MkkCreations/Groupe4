@@ -296,6 +296,7 @@ input {
 /* Barre -------------------------------------------------------*/
 
 #barre {
+    z-index: 3;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -332,28 +333,47 @@ input {
 }
 
 #barre > a:first-of-type > div:hover::before{
+    border: 1px solid transparent;
+    background-color: #2a64a69c;
+    padding: 1px 6px;
+    border-radius: 8px;
     content: "Home";
     position: relative;
-    right: 60px;
+    top: 2px;
+    right: 69px;
     color: #e7e7e7;
 }
 #barre > a:nth-of-type(2) > div:hover::before{
+    border: 1px solid transparent;
+    background-color: #2a64a69c;
+    padding: 1px 6px;
+    border-radius: 8px;
     content: "WWW";
     position: relative;
-    top: 4px;
-    right: 65px;
+    top: 2px;
+    right: 72px;
     color: #e7e7e7;
 }
 #barre > a:nth-of-type(3) > div:hover::before{
+    border: 1px solid transparent;
+    background-color: #2a64a69c;
+    padding: 1px 6px;
+    border-radius: 8px;
+    content: "Serveur";
     position: relative;
     top: 3px;
-    right: 125px;
+    right: 70px;
     color: #e7e7e7;
 }
 #barre > a:nth-of-type(4) > div:hover::before{
+    border: 1px solid transparent;
+    background-color: #2a64a69c;
+    padding: 1px 6px;
+    border-radius: 8px;
     content: "Serveur";
     position: relative;
-    right: 75px;
+    top: 2px;
+    right: 72px;
     color: #e7e7e7;
 }
 
@@ -469,6 +489,7 @@ input {
     width: 70%;
 }
 #sec1 > article > div > img {
+    
     border: 1px solid white;
     width: 45%;
     max-width: 300px;
