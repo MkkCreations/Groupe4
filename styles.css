@@ -331,7 +331,6 @@ input {
 #barre > a > div:hover {
   
     background-color:#A68067;
-<<<<<<< HEAD
     transition: all cubic-bezier(0.165, 0.84, 0.44, 1) 1.3s;
     transform: scale(1.3);
     
@@ -341,14 +340,6 @@ input {
 
 
 /* #barre > a:first-of-type > div:hover::before{
-=======
-    transition:all 1.5s;
-    scale: 1.3;
-}
-
-/* 
-#barre > a:first-of-type > div:hover::before{
->>>>>>> f1f0e81c6a6aa8ee07f14367383a2965f289efb3
     border: 1px solid transparent;
     background-color: #2a64a69c;
     padding: 1px 6px;
