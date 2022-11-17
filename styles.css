@@ -167,7 +167,26 @@ input {
     color: #e7e7e7;
     cursor: pointer;
     margin-bottom: 5px;
-    
+}
+.contentmenu > h3:hover {
+    color: #2A63A6;
+}
+#menuContent > div {
+    width: 100%;
+    text-align: center;
+}
+#menuContent > div > h3 {
+    margin-top: 15px;
+    font-size: 1.4em;
+    color: #18385c;
+}
+#menuContent > div > a {
+    display: block;
+    margin-top: 10px;
+    color: #4fb0cd;
+}
+#menuContent > div > a:hover {
+    color: #3895ff;
 }
 #dismenu:checked ~ #menuContent {
     display: flex;
@@ -464,32 +483,28 @@ input {
 
 .section3 > .sect3-1 {
     display: flex;
-    flex-direction: row;
-    box-shadow:2px 1px 3px 3px #71cae6;
+    flex-direction: column;
+    align-items: center;
+    box-shadow:1px 1px 3px 3px #71cae6;
     justify-content: space-around;
+    border-radius: 10px;
 }
 
-.section3 > h2 {
-    position: relative;
-    margin-top: 60px;
-    
-  
-}
 
 .sect3-1 >p {
-    bottom: 30px;
-    width: 50%;
-    margin: 9px 9px 9px 9px;
-  
-    
+    width: 98%;
+    margin: 9px;
 }
 
-.section3 > .sect3-1 > img {
-    width: 50%;
+.section3 > .sect3-1 > figure {
+    width: 30%;
+}
+.section3 > .sect3-1 > figure > img {
+    width: 100%;
     cursor: pointer;
     font: 1.5rem sans-serif;
     cursor: pointer;
-     will-change: transform;
+    will-change: transform;
 }
 
 .sect3-1 >p{
@@ -506,12 +521,6 @@ input {
     transition: .5s var(--_s,0s) linear,background-size .3s calc(.3s - var(--_s,0s));
   }
 
-  figure >img{
-    align-items: center;
-    margin-top: 6%;
-   
-}
-
   /* Survol animation + durée */
   .sect3-1 >p:hover {
     --_p: 100%; 
@@ -523,11 +532,11 @@ input {
 /* Chronologie des fournisseurs accès Image */
 /* Section 3-2*/
 
+.sect3-2 {
+    text-align: center;
+}
 .sect3-2 img {
-    position: relative;
-    height: 200px;
-    width: 200px;
-
+    width: 60%;
 }
 
 
