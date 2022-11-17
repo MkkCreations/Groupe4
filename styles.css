@@ -176,6 +176,7 @@ input {
 #menuContent > div {
     width: 100%;
     text-align: center;
+    animation: modal 4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 #menuContent > div > h3 {
     margin-top: 15px;
