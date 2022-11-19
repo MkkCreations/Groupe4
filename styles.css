@@ -124,7 +124,7 @@ input {
 
 #menuContent{
     position: fixed;
-    width: 25%;
+    width: 30%;
     max-width: 300px;
     height: 100%;
     background-color: rgb(115, 97, 154);
@@ -258,7 +258,7 @@ input {
         width: 0;
     }
     100%{
-        width: 25%;
+        width: 30%;
     }
 }
 @keyframes blurbody {
