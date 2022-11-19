@@ -39,6 +39,10 @@
     #menuContent {
         width: 50%;
     }
+    #contact, #source {
+        width: 70%;
+        left: 15%;
+    }
     @keyframes menu {
         0%{
             width: 0;
@@ -50,6 +54,18 @@
 }
 
 @media screen and (max-width: 650px){
+    html {
+        overflow-y: scroll;
+    }
+    #barre {
+        display: none;
+    }
+    #home {
+        justify-content: space-evenly;
+    }
+    #btn{
+        display: block;
+    }
     #menu > div{
         background-color: #c2755d;
     }
@@ -61,24 +77,11 @@
         height: auto;
         padding-bottom: 100px;
     }
-    #barre {
-        display: none;
-    }
-    html {
-        overflow-y: scroll;
-    }
-    #home {
-        justify-content: space-evenly;
-    }
-    #btn{
-        display: block;
-    }
     section>article{
         width: 92%;
         background-color: #7d6e8335;
         padding: 20px;
         border-radius: 8px;
-
     }
     .sect3-1 {
         flex-direction: column;
