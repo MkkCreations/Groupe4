@@ -534,13 +534,13 @@ input {
             background-clip: text,padding-box;
     transition: .5s var(--_s,0s) linear,background-size .3s calc(.3s - var(--_s,0s));
 
-  }
+}
 
   /* Survol animation + durée */
-  .sect3-1 >p:hover {
+.sect3-1 >p:hover {
     --_p: 100%; 
     --_s: .3s;
-  }
+}
 
 
 
@@ -573,8 +573,9 @@ input {
 #sec4 >article > dl > dd{
     text-indent: 30px;
 }
-#sec4 > article > b {
-    color:#6a67ce9b;
+#sec4 > article > p > b {
+    color: #A68067;
+    font-size: 1.2em;
 }
 
 
@@ -587,7 +588,27 @@ input {
 
 
 /* Section 6 -------------------------------------------------------- */
-
+#sec6 > article > div {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+#sec6 > article > p > b {
+    color: #A68067;
+    font-size: 1.2em;
+}
+#sec6 > article > div > figure {
+    width: 25%;
+    min-width: 200px;
+    max-width: 400px;
+}
+#sec6 > article > div > figure > img {
+    display: inline-block;
+    width: 100%;
+}
 
 
 
