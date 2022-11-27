@@ -192,7 +192,7 @@ input {
     min-width: 250px;
     height: 50%;
     min-height: 250px;
-    background-color: #7a9dd2;
+    background-color: #353467;
     position: fixed;
     top: 25%;
     left: 30%;
@@ -203,7 +203,7 @@ input {
 #contact>h4, #source>h4 {
     text-align: center;
     font-size: 2em;
-    color: #675888;
+    color: #b6a3de;
 }
 #contact>div {
     display: flex;
@@ -214,7 +214,7 @@ input {
 }
 #contact > div > ul {
     list-style: none;
-    color: #584538;
+    color: #eeceb8;
 }
 #contact > div > div {
     text-align: center;
@@ -231,7 +231,7 @@ input {
     border:1px solid #4b3b31;
     border-radius: 5px;
     padding: 4px;
-    background-color: #58453876;
+    background-color: #8c817a76;
     margin-top: 10px;
 }
 #contact > div > div > button:hover {
@@ -551,7 +551,7 @@ input {
     text-align: center;
 }
 .sect3-2 img {
-    width: 45%;
+    width: 30%;
 }
 
 
