@@ -15,7 +15,26 @@
     }
 }
 
-@media screen and (max-width: 870px){
+@media screen and (max-width: 1000px){
+    section>article {
+        width: 82%;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 930px){
+    section>article {
+        width: 78%;
+    }
+    h2{
+        font-size: 30px;
+    }
+    p{
+        font-size: 1em;
+    }
+    figcaption{
+        width: 94%;
+    }
     #sec1 > article > div {
         flex-direction: column;
         
@@ -26,24 +45,22 @@
     }
     .img-section1 {
         flex-direction: row;
-        height: fit-content;
+        align-items: flex-start;
+
+        height: auto;
+        width: auto;
+        margin: 0;
+
     }
-    section>article {
-        width: 80%;
-        margin: auto;
-    }
-    h2{
-        font-size: 30px;
-    }
-    p{
-        font-size: 1em;
-    }
-    .img-section1 > figure{
+    .img-section1 > figure {
         width: 45%;
     }
 }
 
 @media screen and (max-width: 720px){
+    figcaption{
+        font-size: 0.7em;
+    }
     #home>h1{
         font-size: 4.5em;
     }
@@ -62,6 +79,12 @@
         100%{
             width: 50%;
         }
+    }
+    .img-section1 {
+        gap: 30px;
+    }
+    .img-section1 > figure {
+        width: 40%;
     }
 }
 
@@ -111,11 +134,7 @@
 }
 
 @media screen and (max-width: 600px){
-    #sec1 > article > div > figure{
-        width: 250px;
-        margin: 0;
 
-    }
 }
 
 @media screen and (max-width: 510px){
