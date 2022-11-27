@@ -546,7 +546,7 @@ input {
 
 /* Section 2 --------------------------------------------------------*/
 
-#sec2 h4 {
+#sec3 h4 {
     font-size: 1.3em;
     color: #a278fb;
 }
@@ -556,7 +556,7 @@ input {
 
 /* Section 3-1 */
 
-.section3 > .sect3-1 {
+.section4 > .sect4-1 {
     display: flex;
     align-items: center;
     box-shadow:1px 1px 3px 3px #71cae6;
@@ -564,20 +564,20 @@ input {
     border-radius: 10px;
 }
 
-.section3 > h2 {
+.section4 > h2 {
     margin-bottom: 0;
 }
 
-.sect3-1 > p {
+.sect4-1 > p {
     width: 60%;
     margin: 9px;
 } 
 
-.section3 > .sect3-1 > figure {
+.section4 > .sect4-1 > figure {
     width: 40%;
     margin: 5px;
 }
-.section3 > .sect3-1 > figure > img {
+.section4 > .sect4-1 > figure > img {
     width: 100%;
     cursor: pointer;
     font: 1.5rem sans-serif;
@@ -585,7 +585,7 @@ input {
     will-change: transform;
 }
 
-.sect3-1 > p {
+.sect4-1 > p {
     --b: 0.1em;   /* Epaisseur trait*/
     --c: #71cae6; /* Couleur*/
     
@@ -601,7 +601,7 @@ input {
 }
 
   /* Survol animation + durée */
-.sect3-1 > p:hover {
+.sect4-1 > p:hover {
     --_p: 100%; 
     --_s: .3s;
 }
@@ -611,11 +611,11 @@ input {
 /* Chronologie des fournisseurs accès Image */
 /* Section 3-2*/
 
-.sect3-2 {
+.sect4-2 {
     text-align: center;
 }
 
-.sect3-2 img {
+.sect4-2 img {
     width: 31%;
 }
 
@@ -626,16 +626,16 @@ input {
 /* Section 4 -------------------------------------------------------- */
 
 
-#sec4 > article > p {
+#sec5 > article > p {
     text-align: justify;
     word-spacing: 4px;
 }
-#sec4 > article > dl > dt {
+#sec5 > article > dl > dt {
     color: #7975e8;
     font-weight: bolder;
     font-size: 1.2em;
 }
-#sec4 > article > dl > dd {
+#sec5 > article > dl > dd {
     text-indent: 30px;
 }
 
@@ -643,7 +643,7 @@ input {
 
 /* Section 5 -------------------------------------------------------- */
 
-.section5 > .sect5-1 {
+.section6 > .sect5-1 {
     display: flex;
     align-items: center;
     box-shadow:1px 1px 3px 3px #71cae6;
@@ -651,19 +651,17 @@ input {
     border-radius: 10px;
 }
 
-.section5 > h2 {
+.section6 > h2 {
     margin-bottom: 0;
 }
 
-.sect5-1 >p {
+.sect6-1 >p {
     width: 60%;
     margin: 9px;
 }
 
-
-
 /* Section 6 -------------------------------------------------------- */
-#sec6 > article > div {
+#sec7 > article > div {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -672,10 +670,10 @@ input {
     width: 100%;
 }
 
-#sec6 > article > div > figure {
-    width: 25%;
+#sec7 > article > div > figure {
+    width: 20%;
     min-width: 200px;
-    max-width: 400px;
+    max-width: 300px;
 }
 
 
