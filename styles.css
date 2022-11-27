@@ -551,10 +551,10 @@ input {
     color: #a278fb;
 }
 
-/* Section 3 -------------------------------------------------------- */
+/* Section 4 -------------------------------------------------------- */
 
 
-/* Section 3-1 */
+/* Section 4-1 */
 
 .section4 > .sect4-1 {
     display: flex;
@@ -609,7 +609,7 @@ input {
 
 
 /* Chronologie des fournisseurs accès Image */
-/* Section 3-2*/
+/* Section 4-2*/
 
 .sect4-2 {
     text-align: center;
@@ -623,7 +623,7 @@ input {
 
 
 
-/* Section 4 -------------------------------------------------------- */
+/* Section 5 -------------------------------------------------------- */
 
 
 #sec5 > article > p {
@@ -641,9 +641,9 @@ input {
 
 
 
-/* Section 5 -------------------------------------------------------- */
+/* Section 6 -------------------------------------------------------- */
 
-.section6 > .sect5-1 {
+.section6 > .sect6-1 {
     display: flex;
     align-items: center;
     box-shadow:1px 1px 3px 3px #71cae6;
@@ -660,7 +660,14 @@ input {
     margin: 9px;
 }
 
-/* Section 6 -------------------------------------------------------- */
+.section6 > .sect6-1 > figure {
+    width: 40%;
+    margin: 5px;
+}
+
+
+
+/* Section 7 -------------------------------------------------------- */
 #sec7 > article > div {
     display: flex;
     flex-wrap: wrap;
