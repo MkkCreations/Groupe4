@@ -32,7 +32,7 @@ body {
 p {
     color: #d9ceae;
     font-size: 1.2em;
-    line-height: 1.4em;
+    line-height: 1.5em;
     margin-bottom: 20px;
 }
 a{
@@ -480,7 +480,7 @@ input {
     
     border: 1px solid white;
     width: 45%;
-    max-width: 300px;
+   
     margin-left: 40px;
 }
 
