@@ -10,7 +10,7 @@
     }
 
     h2 {
-        font-size: 35px;
+        font-size: 45px;
     }
 
     p {
@@ -31,7 +31,7 @@
     }
 
     h2 {
-        font-size: 30px;
+        font-size: 40px;
     }
 
     p {
@@ -70,6 +70,9 @@
 @media screen and (max-width: 720px){
     figcaption {
         font-size: 0.7em;
+    }
+    h2{
+        font-size: 35px;
     }
 
     #home>h1 {
