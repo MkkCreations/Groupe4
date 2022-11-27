@@ -484,20 +484,17 @@ input {
 #sec1 > article > div > p{
     width: 70%;
 }
-<<<<<<< HEAD
 #sec1 > article > div > figure {
-=======
-#sec1 > article > div > img {
-    
-    border: 1px solid white;
->>>>>>> a8770e71dca9dc69c78e487535e3290abb1455fe
     width: 45%;
     margin-left: 40px;
 }
 
 /* Section 2 --------------------------------------------------------*/
 
-
+#sec2 h4 {
+    font-size: 1.3em;
+    color: #a278fb;
+}
 
 /* Section 3 -------------------------------------------------------- */
 
@@ -607,12 +604,6 @@ input {
     min-width: 200px;
     max-width: 400px;
 }
-#sec6 > article > div > figure > img {
-    display: inline-block;
-    width: 100%;
-}
-
-
 
 
 /* Section 7 -------------------------------------------------------- */
