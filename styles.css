@@ -583,7 +583,21 @@ input {
 
 /* Section 5 -------------------------------------------------------- */
 
+.section5 > .sect5-1 {
+    display: flex;
+    align-items: center;
+    box-shadow:1px 1px 3px 3px #71cae6;
+    justify-content: space-around;
+    border-radius: 10px;
+}
 
+.section5 > h2 {
+    margin-bottom: 0;
+}
+.sect5-1 >p {
+    width: 60%;
+    margin: 9px;
+}
 
 
 
