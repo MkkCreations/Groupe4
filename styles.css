@@ -167,7 +167,7 @@ input {
 #menuContent > div {
     width: 100%;
     text-align: center;
-    animation: modal 4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    animation: modal 1s ease;
 }
 #menuContent > div > h3 {
     margin-top: 50px;
@@ -491,6 +491,7 @@ input {
 
 
     gap: 20px;
+
     width: 45%;
 }
 
@@ -501,7 +502,10 @@ input {
 
 /* Section 2 --------------------------------------------------------*/
 
-
+#sec2 h4 {
+    font-size: 1.3em;
+    color: #a278fb;
+}
 
 /* Section 3 -------------------------------------------------------- */
 
@@ -593,7 +597,21 @@ input {
 
 /* Section 5 -------------------------------------------------------- */
 
+.section5 > .sect5-1 {
+    display: flex;
+    align-items: center;
+    box-shadow:1px 1px 3px 3px #71cae6;
+    justify-content: space-around;
+    border-radius: 10px;
+}
 
+.section5 > h2 {
+    margin-bottom: 0;
+}
+.sect5-1 >p {
+    width: 60%;
+    margin: 9px;
+}
 
 
 
@@ -611,12 +629,6 @@ input {
     min-width: 200px;
     max-width: 400px;
 }
-#sec6 > article > div > figure > img {
-    display: inline-block;
-    width: 100%;
-}
-
-
 
 
 /* Section 7 -------------------------------------------------------- */
