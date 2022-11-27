@@ -498,7 +498,7 @@ input {
 #sec1 > article > div > p{
     width: 70%;
 }
-#sec1 > article > div > img {
+#sec1 > article > div > figure {
     
     border: 1px solid white;
     width: 45%;
