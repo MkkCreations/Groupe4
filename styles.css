@@ -72,6 +72,14 @@ section>article{
     text-align: justify;
 }
 
+figcaption{
+    font-size: 0.9em;
+}
+b{
+    color: #86593b;
+    font-size: 1em;
+}
+
 .container {
     display: flex;
     flex-direction: row;
@@ -490,10 +498,7 @@ input {
     width: 70%;
 }
 #sec1 > article > div > figure {
-    
-    border: 1px solid white;
     width: 45%;
-   
     margin-left: 40px;
 }
 
@@ -586,11 +591,6 @@ input {
 #sec4 >article > dl > dd{
     text-indent: 30px;
 }
-#sec4 > article > p > b {
-    color: #A68067;
-    font-size: 1.2em;
-}
-
 
 
 
@@ -608,10 +608,6 @@ input {
     align-items: center;
     justify-content: space-around;
     width: 100%;
-}
-#sec6 > article > p > b {
-    color: #A68067;
-    font-size: 1.2em;
 }
 #sec6 > article > div > figure {
     width: 25%;
