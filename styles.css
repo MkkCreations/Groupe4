@@ -279,7 +279,17 @@ input {
     }
 }
 /* Barre -------------------------------------------------------*/
-
+#flech {
+    width: 50px;
+    height: 40px;
+    background-color: #2A63A6;
+    position: fixed;
+    right: 6%;
+    top: 16.5%;
+    clip-path: polygon(0 30%, 59% 30%, 60% 0%, 100% 50%, 60% 100%, 60% 75%, 0 75%);
+    animation: flech 2s forwards;
+    animation-iteration-count: 4;
+}
 #barre {
     z-index: 3;
     display: flex;
@@ -318,6 +328,17 @@ input {
     
 }
 
+@keyframes flech {
+    0%{
+        transform: translateX(0);
+    }
+    50%{
+        transform: translateX(20px);
+    }
+    100%{
+        visibility: hidden;
+    }
+}
 
 
 
