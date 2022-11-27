@@ -108,7 +108,11 @@
     .img-section1 > figure {
         width: 40%;
     }
+    .section6 > .sect6-1 > p {
+        width: 100%;
+    }
 }
+
 
 @media screen and (max-width: 650px){
     html {
@@ -148,15 +152,15 @@
         border-radius: 8px;
     }
 
-    .sect3-1 {
+    .sect4-1 {
         flex-direction: column;
     }
 
-    .sect3-1 p {
+    .sect4-1 p {
         width: 98%;
     }
 
-    .section3 >.sect3-1 > figure {
+    .section4 >.sect4-1 > figure {
         width: 70%;
     }
 
@@ -164,10 +168,6 @@
         justify-content: space-between;
     }
     
-}
-
-@media screen and (max-width: 600px){
-
 }
 
 @media screen and (max-width: 510px){
