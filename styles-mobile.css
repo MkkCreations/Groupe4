@@ -11,11 +11,19 @@
         font-size: 35px;
     }
     p{
-        font-size: 1em;
+        font-size: 1,1em;
     }
 }
 
 @media screen and (max-width: 870px){
+    #sec1 > article > div {
+        flex-direction: column;
+        
+    }
+    #sec1 > article > div > p{
+        width: 100%;
+        margin-bottom: 40px;
+    }
     section>article {
         width: 80%;
         margin: auto;
@@ -24,10 +32,10 @@
         font-size: 30px;
     }
     p{
-        font-size: 0.9em;
+        font-size: 1em;
     }
-    #sec1 > article > div > img{
-        width: 30%;
+    #sec1 > article > div > figure{
+        width: 45%;
     }
 }
 
@@ -99,16 +107,10 @@
 }
 
 @media screen and (max-width: 600px){
-    #sec1 > article > div {
-        flex-direction: column;
-    }
-    #sec1 > article > div > p{
-        width: 100%;
-        margin-bottom: 40px;
-    }
-    #sec1 > article > div > img{
-        width: 30%;
-        min-width: 150px;
+    #sec1 > article > div > figure{
+        width: 250px;
+        margin: 0;
+
     }
 }
 

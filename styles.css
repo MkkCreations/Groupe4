@@ -32,7 +32,8 @@ body {
 p {
     color: #d9ceae;
     font-size: 1.2em;
-    line-height: 1.4em;
+    font-weight: 500;
+    line-height: 1.5em;
     margin-bottom: 20px;
 }
 a{
@@ -46,6 +47,7 @@ h2 {
 }
 
 img {
+    width: 100%;
     border: 1px solid white;
     border-radius: 10px;
 }
@@ -68,6 +70,14 @@ section>article{
     width: 85%;
     height: 90%;
     text-align: justify;
+}
+
+figcaption{
+    font-size: 0.9em;
+}
+b{
+    color: #86593b;
+    font-size: 1em;
 }
 
 .container {
@@ -157,7 +167,7 @@ input {
 #menuContent > div {
     width: 100%;
     text-align: center;
-    animation: modal 4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    animation: modal 1s ease;
 }
 #menuContent > div > h3 {
     margin-top: 50px;
@@ -318,8 +328,6 @@ input {
 }
 
 
-
-
 /* #barre > a:first-of-type > div:hover::before{
     border: 1px solid transparent;
     background-color: #2a64a69c;
@@ -476,17 +484,17 @@ input {
 #sec1 > article > div > p{
     width: 70%;
 }
-#sec1 > article > div > img {
-    
-    border: 1px solid white;
+#sec1 > article > div > figure {
     width: 45%;
-    max-width: 300px;
     margin-left: 40px;
 }
 
 /* Section 2 --------------------------------------------------------*/
 
-
+#sec2 h4 {
+    font-size: 1.3em;
+    color: #a278fb;
+}
 
 /* Section 3 -------------------------------------------------------- */
 
@@ -573,11 +581,6 @@ input {
 #sec4 >article > dl > dd{
     text-indent: 30px;
 }
-#sec4 > article > p > b {
-    color: #A68067;
-    font-size: 1.2em;
-}
-
 
 
 
@@ -610,21 +613,11 @@ input {
     justify-content: space-around;
     width: 100%;
 }
-#sec6 > article > p > b {
-    color: #A68067;
-    font-size: 1.2em;
-}
 #sec6 > article > div > figure {
     width: 25%;
     min-width: 200px;
     max-width: 400px;
 }
-#sec6 > article > div > figure > img {
-    display: inline-block;
-    width: 100%;
-}
-
-
 
 
 /* Section 7 -------------------------------------------------------- */
