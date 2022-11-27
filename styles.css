@@ -327,19 +327,6 @@ input {
     
 }
 
-@keyframes flech {
-    0%{
-        scale: 1;
-    }
-    50%{
-        transform: translateX(20px);
-    }
-    100%{
-        visibility: hidden;
-    }
-}
-
-
 
 /* #barre > a:first-of-type > div:hover::before{
     border: 1px solid transparent;
@@ -497,7 +484,13 @@ input {
 #sec1 > article > div > p{
     width: 70%;
 }
+<<<<<<< HEAD
 #sec1 > article > div > figure {
+=======
+#sec1 > article > div > img {
+    
+    border: 1px solid white;
+>>>>>>> a8770e71dca9dc69c78e487535e3290abb1455fe
     width: 45%;
     margin-left: 40px;
 }
