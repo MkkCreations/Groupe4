@@ -505,12 +505,12 @@ input {
     margin-bottom: 0;
 }
 .sect3-1 >p {
-    width: 50%;
+    width: 60%;
     margin: 9px;
 }
 
 .section3 > .sect3-1 > figure {
-    width: 50%;
+    width: 40%;
     margin: 5px;
 }
 .section3 > .sect3-1 > figure > img {
@@ -551,7 +551,7 @@ input {
     text-align: center;
 }
 .sect3-2 img {
-    width: 30%;
+    width: 31%;
 }
 
 
