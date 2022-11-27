@@ -24,6 +24,10 @@
         width: 100%;
         margin-bottom: 40px;
     }
+    .img-section1 {
+        flex-direction: row;
+        height: fit-content;
+    }
     section>article {
         width: 80%;
         margin: auto;
@@ -34,7 +38,7 @@
     p{
         font-size: 1em;
     }
-    #sec1 > article > div > figure{
+    .img-section1 > figure{
         width: 45%;
     }
 }

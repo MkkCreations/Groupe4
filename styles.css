@@ -479,21 +479,25 @@ input {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+
 }
 #sec1 > article > div > p{
     width: 70%;
 }
-<<<<<<< HEAD
-#sec1 > article > div > figure {
-=======
-#sec1 > article > div > img {
-    
-    border: 1px solid white;
->>>>>>> a8770e71dca9dc69c78e487535e3290abb1455fe
+
+.img-section1 {
+    display: flex;
+    flex-direction: column;
+
+
+    gap: 20px;
     width: 45%;
+}
+
+.img-section1 > figure {
     margin-left: 40px;
 }
+
 
 /* Section 2 --------------------------------------------------------*/
 
