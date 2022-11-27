@@ -1,3 +1,8 @@
+@media screen and (max-width: 1470px){
+    p {
+        font-size: 1.1em;
+    }
+}
 @media screen and (max-width: 1170px){
     #home> h1 {
         font-size: 6em;
@@ -12,8 +17,12 @@
     h2 {
         font-size: 45px;
     }
+<<<<<<< HEAD
 
     p {
+=======
+    p{
+>>>>>>> f7ac67334dddda231db005120c6da825c09d250a
         font-size: 1em;
     }
 }
@@ -23,6 +32,7 @@
         width: 82%;
         margin: auto;
     }
+    
 }
 
 @media screen and (max-width: 930px){
