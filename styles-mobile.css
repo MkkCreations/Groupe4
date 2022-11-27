@@ -1,16 +1,19 @@
 @media screen and (max-width: 1170px){
-    #home> h1{
+    #home> h1 {
         font-size: 6em;
     }
-    section>article{
+
+    section>article {
         width: 80%;
         height: 90%;
         margin: auto;
     }
-    h2{
+
+    h2 {
         font-size: 35px;
     }
-    p{
+
+    p {
         font-size: 1,1em;
     }
 }
@@ -26,23 +29,29 @@
     section>article {
         width: 78%;
     }
-    h2{
+
+    h2 {
         font-size: 30px;
     }
-    p{
+
+    p {
         font-size: 1em;
     }
-    figcaption{
+
+    figcaption {
         width: 94%;
     }
+
     #sec1 > article > div {
         flex-direction: column;
         
     }
-    #sec1 > article > div > p{
+
+    #sec1 > article > div > p {
         width: 100%;
         margin-bottom: 40px;
     }
+
     .img-section1 {
         flex-direction: row;
         align-items: flex-start;
@@ -52,26 +61,30 @@
         margin: 0;
 
     }
+
     .img-section1 > figure {
         width: 45%;
     }
 }
 
 @media screen and (max-width: 720px){
-    figcaption{
+    figcaption {
         font-size: 0.7em;
     }
-    #home>h1{
+
+    #home>h1 {
         font-size: 4.5em;
     }
 
     #menuContent {
         width: 50%;
     }
+
     #contact, #source {
         width: 70%;
         left: 15%;
     }
+
     @keyframes menu {
         0%{
             width: 0;
@@ -80,9 +93,11 @@
             width: 50%;
         }
     }
+
     .img-section1 {
         gap: 30px;
     }
+
     .img-section1 > figure {
         width: 40%;
     }
@@ -92,41 +107,52 @@
     html {
         overflow-y: scroll;
     }
+
     #barre {
         display: none;
     }
+
     #home {
         justify-content: space-evenly;
     }
-    #btn{
+
+    #btn { 
         display: block;
     }
-    #menu > div{
+
+    #menu > div {
         background-color: #c2755d;
     }
+
     .background-menu {
         display: block;
     }
+
     section {
         min-height: 100vh;
         height: auto;
         padding-bottom: 100px;
     }
+
     section>article{
         width: 92%;
         background-color: #7d6e8335;
         padding: 20px;
         border-radius: 8px;
     }
+
     .sect3-1 {
         flex-direction: column;
     }
+
     .sect3-1 p {
         width: 98%;
     }
+
     .section3 >.sect3-1 > figure {
         width: 70%;
     }
+
     #footer{
         justify-content: space-between;
     }
@@ -138,20 +164,23 @@
 }
 
 @media screen and (max-width: 510px){
-    #menuContent{
+    #menuContent {
         max-width: none;
         width: 100vw;
         height: 60%;
         padding: 5% 0;
     }
-    #home > h1{
+
+    #home > h1 {
         width: 90%;
         font-size: 3.4em;
     }
+
     #contact, #source {
         width: 80%;
         left: 10%;
     }
+
     @keyframes menu {
         0%{
             height: 0;
@@ -160,4 +189,5 @@
             height: 60%;
         }
     }
+    
 }
