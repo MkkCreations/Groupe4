@@ -760,6 +760,11 @@ input {
 
 #footer > article {
     margin: 0;
+    align-items: center;
+}
+#footer article figure {
+    max-width: 100%;
+    min-width: 250px;
 }
 
 .footer {

@@ -177,6 +177,10 @@
 }
 
 @media screen and (max-width: 510px){
+    section {
+        height: fit-content;
+        min-height: unset;
+    }
     #menuContent {
         max-width: none;
         width: 100vw;
@@ -197,6 +201,10 @@
     }
     #contact>div {
         flex-direction: column;
+    }
+
+    .sect6-1 > p, .sect6-1 > figure {
+        min-width: unset;
     }
 
     @keyframes menu {
