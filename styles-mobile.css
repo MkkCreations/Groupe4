@@ -78,6 +78,17 @@
     .img-section1 > figure {
         width: 45%;
     }
+    .container-sec2 {
+        flex-direction: column-reverse;
+    }
+    .wrapper2-img {
+        flex-direction: row;
+        margin: auto;
+    }
+    .wrapper1-sec2 {
+        width: 100%;
+        margin: 0;
+    }
 }
 
 @media screen and (max-width: 720px){
@@ -112,6 +123,7 @@
 
     .img-section1 {
         gap: 30px;
+
     }
 
     .img-section1 > figure {
@@ -160,7 +172,7 @@
         padding: 20px;
         border-radius: 8px;
     }
-    #menuContent > .chronologie {
+    #menuContent > .chronologigap: 150px;e {
         display: none;
     }
 
