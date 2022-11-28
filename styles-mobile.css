@@ -1,3 +1,8 @@
+@media screen and (max-width: 1470px){
+    p {
+        font-size: 1.1em;
+    }
+}
 @media screen and (max-width: 1170px){
     #home> h1 {
         font-size: 6em;
@@ -13,8 +18,8 @@
         font-size: 45px;
     }
 
-    p {
-        font-size: 1,1em;
+    p{
+        font-size: 1em;
     }
 }
 
@@ -23,6 +28,7 @@
         width: 82%;
         margin: auto;
     }
+    
 }
 
 @media screen and (max-width: 930px){
@@ -46,6 +52,9 @@
         flex-direction: column;
         
     }
+    #sec1 > article > h2 {
+        margin-top: 40px;
+    }
 
     #sec1 > article > div > p {
         width: 100%;
@@ -55,6 +64,7 @@
     .img-section1 {
         flex-direction: row;
         align-items: flex-start;
+        justify-content: space-evenly;
 
         height: auto;
         width: auto;
@@ -104,7 +114,11 @@
     .img-section1 > figure {
         width: 40%;
     }
+    .section6 > .sect6-1 > p {
+        width: 100%;
+    }
 }
+
 
 @media screen and (max-width: 650px){
     html {
@@ -144,15 +158,15 @@
         border-radius: 8px;
     }
 
-    .sect3-1 {
+    .sect4-1 {
         flex-direction: column;
     }
 
-    .sect3-1 p {
+    .sect4-1 p {
         width: 98%;
     }
 
-    .section3 >.sect3-1 > figure {
+    .section4 >.sect4-1 > figure {
         width: 70%;
     }
 
@@ -160,10 +174,6 @@
         justify-content: space-between;
     }
     
-}
-
-@media screen and (max-width: 600px){
-
 }
 
 @media screen and (max-width: 510px){
