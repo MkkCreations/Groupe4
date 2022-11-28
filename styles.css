@@ -89,7 +89,6 @@ figcaption {
 }
 
 b {
-    font-style: italic;
     font-weight: 800;
     color: #f4e1b0;
 }
@@ -572,7 +571,7 @@ input {
 }
 
 .wrapper1-sec2 > dl > dt {
-    color: #7975e8;
+    color: #f7e2b5;
     font-weight: bolder;
     font-size: 1.2em;
 
