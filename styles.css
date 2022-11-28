@@ -769,7 +769,7 @@ input {
     align-items: center;
 }
 #footer article figure {
-    max-width: 100%;
+    max-width: 80%;
     min-width: 250px;
 }
 
@@ -794,6 +794,7 @@ input {
     gap: 30px;
     list-style: none;
     margin: 20px;
+    padding: 0 20px;
 }
 .footer > ul > li>a {
     color:  #d9ceae;
