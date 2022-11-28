@@ -32,10 +32,14 @@ body {
 
 p {
     color: #d9ceae;
-    font-size: 1,2em;
+    font-size: 1.2em;
     font-weight: 500;
     line-height: 1.5em;
     margin-bottom: 20px;
+}
+
+li {
+    font-size: 1em;
 }
 
 a {
@@ -85,8 +89,8 @@ figcaption {
 }
 
 b {
-    color: #86593b;
-    font-size: 1em;
+    font-style: italic;
+    font-weight: 100;
 }
 
 .container {
@@ -179,27 +183,27 @@ input {
     color: #2A63A6;
 }
 
-#menuContent > div {
+#menuContent > .chronologie {
     width: 100%;
     text-align: center;
     animation: modal 1s alternate;
 }
 
-#menuContent > div > h3 {
+#menuContent > .chronologie > h3 {
     margin-top: 50px;
     margin-bottom: 50px;
     font-size: 1.8em;
     color: #18385c;
 }
 
-#menuContent > div > a {
+#menuContent > .chronologie > a {
     display: block;
     font-weight: 500;
     margin-top: 30px;
     color: #E7E7E7;
 }
 
-#menuContent > div > a:hover {
+#menuContent > .chronologie > a:hover {
     color: #4174bcf3;
 }
 
@@ -545,7 +549,7 @@ input {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    gap: 50px;
+    gap: 30px;
 }
 
 
@@ -581,11 +585,8 @@ input {
     flex-direction: column;
 }
 
-
-
-
 .content1-sec2 > ul {
-    list-style-type:circle;
+    list-style-type: none;
 }
 .content1-sec2 > ul > li {
     margin-bottom: 10px;
@@ -596,9 +597,23 @@ input {
     max-width: 500px;
     gap: 100px;
     align-items: center;
-    margin: 20px auto;
+    margin: 50px auto;
 }
 
+
+.content1-sec2 > dl {
+    margin: 10px 0;
+}
+
+.content1-sec2 > dl > dt {
+    color: #7975e8;
+    font-weight: bolder;
+    font-size: 1.2em;
+
+}
+.content1-sec2 > dl > dd {
+    text-indent: 30px;
+}
 /* Section 3  */
 
 #sec3 > article > figure {
@@ -647,7 +662,7 @@ input {
     color: #0000;
     padding-block: var(--b);
     background: 
-      linear-gradient(var(--c) 50%,#A68067 0) 0% calc(100% - var(--_p,0%))/100% 200%,
+      linear-gradient(var(--c) 50%,#d9ceae 0) 0% calc(100% - var(--_p,0%))/100% 200%,
       linear-gradient(var(--c) 0 0) 0% var(--_p,0%)/var(--_p,0%) var(--b) no-repeat;
     -webkit-background-clip: text,padding-box;
             background-clip: text,padding-box;
@@ -742,6 +757,8 @@ input {
     align-items: center;
     justify-content: space-around;
     width: 100%;
+
+    margin-top: 50px;
 }
 
 #sec7 > article > div > figure {
@@ -775,10 +792,10 @@ input {
     align-items: center;
 }
  #footer h2 {
-    margin-bottom: 0;
+    margin-bottom: 20px;
  }
 #footer article figure {
-    max-width: 80%;
+    max-width: 95%;
     min-width: 250px;
 }
 

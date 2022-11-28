@@ -4,9 +4,6 @@
     }
 }
 @media screen and (max-width: 1170px){
-    #barre {
-        top: 2%;
-    }
     #home> h1 {
         font-size: 6em;
     }
@@ -160,6 +157,14 @@
         padding: 20px;
         border-radius: 8px;
     }
+    #menuContent > .chronologie {
+        display: none;
+    }
+
+    .wrapper2-img {
+        gap: 50px;
+    }
+
 
     .sect4-1 {
         flex-direction: column;
@@ -187,7 +192,7 @@
     #menuContent {
         max-width: none;
         width: 100vw;
-        height: 60%;
+        height: 30%;
         padding: 5% 0;
     }
 
@@ -222,7 +227,7 @@
             height: 0;
         }
         50%{
-            height: 60%;
+            height: 30%;
         }
     }
     
