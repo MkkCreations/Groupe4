@@ -187,7 +187,7 @@ input {
 #menuContent > .chronologie {
     width: 100%;
     text-align: center;
-    animation: modal 1s alternate;
+    animation: modal 1.5s alternate;
 }
 
 #menuContent > .chronologie > h3 {
@@ -400,53 +400,6 @@ input {
     transform: scale(1.3);
     
 }
-
-
-/* #barre > a:first-of-type > div:hover::before{
-    border: 1px solid transparent;
-    background-color: #2a64a69c;
-    padding: 1px 6px;
-    border-radius: 8px;
-    content: "Home";
-    position: relative;
-    top: 2px;
-    right: 69px;
-    color: #e7e7e7;
-}
-#barre > a:nth-of-type(2) > div:hover::before{
-    border: 1px solid transparent;
-    background-color: #2a64a69c;
-    padding: 1px 6px;
-    border-radius: 8px;
-    content: "WWW";
-    position: relative;
-    top: 2px;
-    right: 72px;
-    color: #e7e7e7;
-}
-#barre > a:nth-of-type(3) > div:hover::before{
-    border: 1px solid transparent;
-    background-color: #2a64a69c;
-    padding: 1px 6px;
-    border-radius: 8px;
-    content: "Serveur";
-    position: relative;
-    top: 3px;
-    right: 70px;
-    color: #e7e7e7;
-}
-#barre > a:nth-of-type(4) > div:hover::before{
-    border: 1px solid transparent;
-    background-color: #2a64a69c;
-    padding: 1px 6px;
-    border-radius: 8px;
-    content: "Serveur";
-    position: relative;
-    top: 2px;
-    right: 72px;
-    color: #e7e7e7;
-} */
-
 
 /* Background circles ------------------------------------------*/
 
