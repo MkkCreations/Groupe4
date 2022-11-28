@@ -77,7 +77,7 @@ section>article {
     flex-direction: column;
     justify-content: center;
     margin: 30px 150px;
-    color: white;
+    color: #bbbbbb;
     width: 85%;
     height: 90%;
     text-align: justify;
@@ -91,7 +91,7 @@ figcaption {
 b {
     font-style: italic;
     font-weight: 800;
-    color: #e4e0a1;
+    color: #f4e1b0;
 }
 
 .container {
@@ -615,7 +615,7 @@ input {
 }
 
 .content1-sec2 > dl > dt {
-    color: #7975e8;
+    color: #f7e2b5;
     font-weight: bolder;
     font-size: 1.2em;
 
@@ -625,9 +625,12 @@ input {
 }
 /* Section 3  */
 
+#sec3 article h4 {
+    color: #f7e2b5;
+}
 #sec3 > article > figure {
     max-width: 500px;
-    margin: 40px auto;
+    margin: 10px auto;
 }
 
 /* Section 4 -------------------------------------------------------- */
@@ -711,7 +714,7 @@ input {
     word-spacing: 4px;
 }
 #sec5 > article > dl > dt {
-    color: #7975e8;
+    color: #f7e2b5;
     font-weight: bolder;
     font-size: 1.2em;
 }
