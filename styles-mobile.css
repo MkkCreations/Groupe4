@@ -4,6 +4,9 @@
     }
 }
 @media screen and (max-width: 1170px){
+    #barre {
+        top: 2%;
+    }
     #home> h1 {
         font-size: 6em;
     }
