@@ -673,6 +673,10 @@ input {
 .sect4-2 img {
     width: 38%;
 }
+.sect4-2 img:hover {
+    scale: 2;
+    translate: 0 -35%;
+}
 
 
 /* Section 5 -------------------------------------------------------- */
