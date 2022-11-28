@@ -209,6 +209,13 @@
     .sect6-1 > p, .sect6-1 > figure {
         min-width: unset;
     }
+    #sec7 > article > div > figure {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    #footer article figure {
+        max-width: 100%;
+    }
 
     @keyframes menu {
         0%{
