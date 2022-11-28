@@ -31,7 +31,7 @@ body {
 }
 
 p {
-    color: #d9ceae;
+    color: #bbbbbb;
     font-size: 1.2em;
     font-weight: 500;
     line-height: 1.5em;
@@ -90,7 +90,8 @@ figcaption {
 
 b {
     font-style: italic;
-    font-weight: 100;
+    font-weight: 800;
+    color: #e4e0a1;
 }
 
 .container {
