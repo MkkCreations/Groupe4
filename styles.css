@@ -318,6 +318,14 @@ input {
     animation: modal 1s ease;
 }
 
+#source div {
+    width: 80%;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
 
 @keyframes menu {
     0%{
