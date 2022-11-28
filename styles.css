@@ -187,15 +187,15 @@ input {
 
 #menuContent > div > h3 {
     margin-top: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     font-size: 1.8em;
     color: #18385c;
 }
 
 #menuContent > div > a {
     display: block;
-    font-weight: bold;
-    margin-top: 10px;
+    font-weight: 500;
+    margin-top: 30px;
     color: #E7E7E7;
 }
 
@@ -545,8 +545,9 @@ input {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
+    gap: 50px;
 }
+
 
 #sec1 > article > div > p { 
     width: 70%;
@@ -598,7 +599,12 @@ input {
     margin: 20px auto;
 }
 
+/* Section 3  */
 
+#sec3 > article > figure {
+    max-width: 500px;
+    margin: 40px auto;
+}
 
 /* Section 4 -------------------------------------------------------- */
 
