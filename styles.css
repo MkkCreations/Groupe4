@@ -32,7 +32,7 @@ body {
 
 p {
     color: #d9ceae;
-    font-size: 1,2em;
+    font-size: 1.2em;
     font-weight: 500;
     line-height: 1.5em;
     margin-bottom: 20px;
@@ -187,15 +187,15 @@ input {
 
 #menuContent > div > h3 {
     margin-top: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     font-size: 1.8em;
     color: #18385c;
 }
 
 #menuContent > div > a {
     display: block;
-    font-weight: bold;
-    margin-top: 10px;
+    font-weight: 500;
+    margin-top: 30px;
     color: #E7E7E7;
 }
 
@@ -316,6 +316,14 @@ input {
 #dissource:checked ~ #source {
     display: unset;
     animation: modal 1s ease;
+}
+
+#source div {
+    width: 80%;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 
@@ -545,8 +553,9 @@ input {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
+    gap: 50px;
 }
+
 
 #sec1 > article > div > p { 
     width: 70%;
@@ -598,7 +607,12 @@ input {
     margin: 20px auto;
 }
 
+/* Section 3  */
 
+#sec3 > article > figure {
+    max-width: 500px;
+    margin: 40px auto;
+}
 
 /* Section 4 -------------------------------------------------------- */
 
@@ -666,6 +680,10 @@ input {
 
 .sect4-2 img {
     width: 38%;
+}
+.sect4-2 img:hover {
+    scale: 2;
+    translate: 0 -35%;
 }
 
 
