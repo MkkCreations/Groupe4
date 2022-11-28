@@ -322,6 +322,14 @@ input {
     animation: modal 1s ease;
 }
 
+#source div {
+    width: 80%;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
 
 @keyframes menu {
     0%{
@@ -688,6 +696,10 @@ input {
 .sect4-2 img {
     width: 38%;
 }
+.sect4-2 img:hover {
+    scale: 2;
+    translate: 0 -35%;
+}
 
 
 /* Section 5 -------------------------------------------------------- */
@@ -746,6 +758,26 @@ input {
     width: 100px;
    
 }
+
+.sect6-1>figure img{
+    
+    filter: grayscale(1);
+	-webkit-filter: grayscale(1);
+	-moz-filter: grayscale(1);
+	-o-filter: grayscale(1);
+	-ms-filter: grayscale(1);
+    }
+    
+
+.sect6-1>figure img:hover{
+
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+    -moz-filter: grayscale(0);
+    -o-filter: grayscale(0);
+    -ms-filter: grayscale(0);
+    }
+
 
 
 
