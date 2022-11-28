@@ -638,9 +638,6 @@ input {
 }
 
 
-
-
-
 /* Section 5 -------------------------------------------------------- */
 
 
@@ -671,6 +668,11 @@ input {
 
 .section6 > h2 {
     margin-bottom: 0;
+    background-image: url(/imgs/chapeau-de-remise-de-diplome.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 70px;
+
 }
 
 .sect6-1 >p {
@@ -681,6 +683,12 @@ input {
 .section6 > .sect6-1 > figure {
     width: 40%;
     margin: 5px;
+
+}
+
+.sect6-icone {
+    width: 100px;
+   
 }
 
 
