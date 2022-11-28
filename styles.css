@@ -161,7 +161,7 @@ input {
 }
 
 .contentmenu {
-    animation: modal 4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    animation: modal 2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
 .contentmenu > h3 {
@@ -178,7 +178,7 @@ input {
 #menuContent > div {
     width: 100%;
     text-align: center;
-    animation: modal 1s ease;
+    animation: modal 1s alternate;
 }
 
 #menuContent > div > h3 {
@@ -243,29 +243,54 @@ input {
 }
 
 #contact > div > ul {
+    width: 40%;
     list-style: none;
     color: #eeceb8;
+}
+#contact > div > ul > li {
+    background-color: #2a64a6ad;
+    padding: 10px;
+    margin: 4px;
+    border-radius: 8px;
+}
+#contact > div > ul > li:first-of-type {
+    background-color: #675888;
+    color: white;
+    font-size: 1.2em;
 }
 
 #contact > div > div {
     text-align: center;
 }
 
+#contact > div > div > label {
+    display: block;
+    width: 100%;
+    font-size: 0.8em;
+    color: #fff;
+    background-color: #675888;
+    margin-bottom: 4px;
+    border-radius: 8px;
+}
 #contact > div > div > input {
     display: block;
     width: 100%;
+    height: 30px;
+    padding: 10px;
     border:  1px solid #675888;
     border-radius: 5px;
-    background-color: #6758888a;
+    background-color: #b8a2e9bb;
     position: unset;
 }
 
 #contact > div > div > button {
-    border:1px solid #4b3b31;
+    width: 100%;
+    border:1px solid #71cae6;
     border-radius: 5px;
-    padding: 4px;
-    background-color: #8c817a76;
-    margin-top: 10px;
+    padding: 2px;
+    color: white;
+    background-color: #18385c;
+    margin-top: 4px;
 }
 
 #contact > div > div > button:hover {
@@ -310,7 +335,7 @@ input {
 
 @keyframes modal {
     0%{
-        scale: 0;
+        scale: 0.5;
     }
     100%{
         scale: 1;
