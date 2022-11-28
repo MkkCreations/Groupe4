@@ -50,6 +50,9 @@
     figcaption {
         width: 94%;
     }
+    #menuContent {
+        width: 50%;
+    }
 
     #sec1 > article > div {
         flex-direction: column;
@@ -187,7 +190,7 @@
     #menuContent {
         max-width: none;
         width: 100vw;
-        height: 60%;
+        height: 80%;
         padding: 5% 0;
     }
 
@@ -222,7 +225,7 @@
             height: 0;
         }
         50%{
-            height: 60%;
+            height: 80%;
         }
     }
     
